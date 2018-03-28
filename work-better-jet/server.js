@@ -10,6 +10,6 @@ app.use(function(request, response, next) {
 app.use(express.static(__dirname));
 
 
-let port = process.env.PORT || 9010;
+let port = process.env.PORT || 80;
 app.listen(port);
 
