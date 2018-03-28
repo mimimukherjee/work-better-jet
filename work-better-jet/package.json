@@ -1,0 +1,14 @@
+{
+  "name": "work-better-jet",
+  "version": "1.0.0",
+  "description": "http://www.oracle.com/technetwork/developer-tools/jet/downloads/index.html",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+      "express": "4.x.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
