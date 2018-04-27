@@ -13,7 +13,7 @@ define(['ojs/ojcore', 'knockout', 'utils', 'data/data', 'ojs/ojrouter', 'ojs/ojk
                 self.allPeople = ko.observableArray([]);
                 self.ready = ko.observable(false);
 
-                data.fetchData('js/data/employees.json').then(function (people) {
+                data.fetchData('employees').then(function (people) {
                     self.allPeople(people.employees);
                 }).fail(function (error) {
                     console.log('Error in getting People data: ' + error.message);
